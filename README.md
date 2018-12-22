@@ -1,3 +1,20 @@
+# This is a fork of the Oracle Sample Schemas 
+Invoke by copying to jump box
+git clone https://github.com/raginwombat/oracle_schema
+navigate to dir
+cd oracle_schema
+initiate instant client connection with something like created_user/created_pass@instance:port/instance_id
+
+launch script: @mksample.sql
+parameters:
+User created when making the RDS
+PROMPT specify system user as parameter 1:
+Created RDS user password
+PROMPT specify password for SYSTEM as parameter 2
+Connectoin string in easy connect format. Should be the same as used to connect to instance
+PROMPT specify connect string as parameter 3:
+
+
 # Oracle Database Sample Schemas
 
 Copyright (c) 2016 Oracle
@@ -20,6 +37,7 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 ## 1. Introduction
 
